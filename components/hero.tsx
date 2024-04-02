@@ -7,15 +7,15 @@ export default function Hero() {
     <section className="relative" >
       <div style={{ position: 'relative' }}>
     <Image className="md:max-w-none mx-auto rounded w-full" src={FeBg} alt="Febg" style={{ height: '70vh' }} />
-        <div style={{ position: 'absolute', top: '50%', left: '60%', transform: 'translate(-50%, -50%)', textAlign: 'center', color: 'white' }}>
-           <h2 className="text-3xl font-semibold mb-4 animate-slideTopDown">UMKC's Skin Smart Campus Initiative</h2>
+        <div style={{ position: 'absolute', top: '50%', left: '70%', transform: 'translate(-50%, -50%)', textAlign: 'center', color: 'white' }}>
+           <h2 className="text-3xl font-semibold mb-4 animate-slideTopDown">MIAMI'S Skin Smart Campus Initiative</h2>
           <p className="text-lg animate-slideBottomUp"> shines a light on skin cancer prevention, fostering a safer, healthier campus environment for all.</p>
          </div>
   </div>
   <div className="container mx-auto mt-12 px-4 flex flex-wrap items-center" style={{backgroundColor:"#f6f6f6"}}>
-    <div className="rounded-lg overflow-hidden shadow-lg bg-gradient-to-r from-blue-600 to-blue-400" style={{ backgroundColor: "#f6f6f6" }}>
+    <div className="rounded-lg overflow-hidden shadow-lg bg-gradient-to-r from-orange-600 to-orange-400 text-white" style={{ backgroundColor: "#f6f6f6" }}>
 
-  <button className="container flex justify-center items-center button-yellow mb-8">About Skin Smart Campus Initiative</button>
+  <button className="container flex justify-center items-center button-red mb-8">About Skin Smart Campus Initiative</button>
     <p className="animate-slideLeft text-lg mb-6">
       The University of Missouri-Kansas City aims to earn recognition as a Skin Smart Campus by The National Council on Skin Cancer Prevention through our commitment to fostering a safe and healthy learning and living environment both on- and off-campus. As part of this initiative, we have taken a pledge to prohibit indoor tanning devices in all university-affiliated buildings, while actively promoting skin cancer prevention policies and educational efforts.
     </p>

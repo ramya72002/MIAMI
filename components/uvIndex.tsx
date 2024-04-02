@@ -20,13 +20,13 @@ export default function UvIndex() {
     <section className="relative">
       <div className="container mx-auto mt-12 px-4">
         
-        <div className="rounded-lg overflow-hidden shadow-lg bg-gradient-to-r from-blue-600 to-blue-400">
+        <div className="rounded-lg overflow-hidden shadow-lg bg-gradient-to-r from-orange-600 to-orange-400">
           <div className="p-8">
-          <button className="container  flex justify-center items-center button-yellow">UV Index Table</button>
+          <button className="container  flex justify-center items-center button-red">UV Index Table</button>
             <div className="overflow-x-auto">
               <table className="w-full table-fixed bg-white shadow-md rounded-lg">
                 <thead>
-                  <tr className="bg-blue-500 text-white">
+                  <tr className="bg-orange-500 text-white">
                     <th className="w-1/6 py-2">UV Index</th>
                     <th className="w-1/6 py-2">Exposure Category</th>
                     <th className="w-2/6 py-2">Protection Recommendation</th>
@@ -36,9 +36,9 @@ export default function UvIndex() {
                 <tbody>
                   <tr className="text-gray-900">
                     <td className={`border px-4 py-2 ${getColorByUVIndex(1)}`}>1-2</td>
-                    <td className="border px-4 py-2 bg-blue-100">Low</td>
-                    <td className="border px-4 py-2 bg-blue-100">No protection required</td>
-                    <td className="border px-4 py-2 bg-blue-100">
+                    <td className="border px-4 py-2 bg-orange-100">Low</td>
+                    <td className="border px-4 py-2 bg-orange-100">No protection required</td>
+                    <td className="border px-4 py-2 bg-orange-100">
                       <ul className="list-disc list-inside">
                         <li>Minimal protection needed</li>
                         <li>You can safely stay outside using minimal sun protection</li>
@@ -47,9 +47,9 @@ export default function UvIndex() {
                   </tr>
                   <tr className="text-gray-900">
                     <td className={`border px-4 py-2 ${getColorByUVIndex(3)}`}>3-5</td>
-                    <td className="border px-4 py-2 bg-blue-200">Moderate</td>
-                    <td className="border px-4 py-2 bg-blue-200">Protection recommended</td>
-                    <td className="border px-4 py-2 bg-blue-200">
+                    <td className="border px-4 py-2 bg-orange-200">Moderate</td>
+                    <td className="border px-4 py-2 bg-orange-200">Protection recommended</td>
+                    <td className="border px-4 py-2 bg-orange-200">
                       <ul className="list-disc list-inside">
                         <li>Apply sunscreen with SPF 30 or higher → reapply every 2 hours</li>
                         <li>Wear protective clothing: long-sleeved shirt + pants, wide-brimmed hat, and sunglasses</li>
@@ -58,9 +58,9 @@ export default function UvIndex() {
                   </tr>
                   <tr className="text-gray-900">
                     <td className={`border px-4 py-2 ${getColorByUVIndex(6)}`}>6-7</td>
-                    <td className="border px-4 py-2 bg-blue-100">High</td>
-                    <td className="border px-4 py-2 bg-blue-100">Protection required</td>
-                    <td className="border px-4 py-2 bg-blue-100">
+                    <td className="border px-4 py-2 bg-orange-100">High</td>
+                    <td className="border px-4 py-2 bg-orange-100">Protection required</td>
+                    <td className="border px-4 py-2 bg-orange-100">
                       <ul className="list-disc list-inside">
                         <li>Apply sunscreen with SPF 30 or higher → reapply every 2 hours</li>
                         <li>Wear protective clothing</li>
@@ -70,9 +70,9 @@ export default function UvIndex() {
                   </tr>
                   <tr className="text-gray-900">
                     <td className={`border px-4 py-2 ${getColorByUVIndex(9)}`}>8-10</td>
-                    <td className="border px-4 py-2 bg-blue-200">Very High</td>
-                    <td className="border px-4 py-2 bg-blue-200">Extra protection required</td>
-                    <td className="border px-4 py-2 bg-blue-200">
+                    <td className="border px-4 py-2 bg-orange-200">Very High</td>
+                    <td className="border px-4 py-2 bg-orange-200">Extra protection required</td>
+                    <td className="border px-4 py-2 bg-orange-200">
                       <ul className="list-disc list-inside">
                         <li>Take extra precautions: apply sunscreen with SPF 30 or higher generously → reapply every 2 hours</li>
                         <li>Wear protective clothing</li>
@@ -82,9 +82,9 @@ export default function UvIndex() {
                   </tr>
                   <tr className="text-gray-900">
                     <td className={`border px-4 py-2 ${getColorByUVIndex(12)}`}>11+</td>
-                    <td className="border px-4 py-2 bg-blue-100">Extreme</td>
-                    <td className="border px-4 py-2 bg-blue-100">Extra protection required</td>
-                    <td className="border px-4 py-2 bg-blue-100">
+                    <td className="border px-4 py-2 bg-orange-100">Extreme</td>
+                    <td className="border px-4 py-2 bg-orange-100">Extra protection required</td>
+                    <td className="border px-4 py-2 bg-orange-100">
                       <ul className="list-disc list-inside">
                         <li>Limit outdoor exposure: stay indoors or in the shade as much as possible</li>
                         <li>Use sunscreen with SPF 30 or higher → reapply every 2 hours</li>

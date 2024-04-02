@@ -3,11 +3,11 @@ import Image from 'next/image';
  
 export default function ResourcesLinks() {
   return (
-    <section className="relative" style={{ backgroundColor: "#f6f6f6" }}>
+    <section className="relative" style={{ backgroundColor: "#c84f04" }}>
       <div className="container mx-auto mt-12 px-4">
-        <div className="rounded-lg overflow-hidden shadow-lg bg-gradient-to-r from-blue-600 to-blue-400">
+        <div className="rounded-lg overflow-hidden shadow-lg bg-gradient-to-r from-orange-600 to-orange-400">
           <div className="p-8">
-          <button className="container flex justify-center items-center button-yellow mb-8">Additional Resources</button>
+          <button className="container flex justify-center items-center button-red mb-8">Additional Resources</button>
 
             <h2 className="text-2xl font-bold text-white mb-4">Additional Resources</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -85,7 +85,7 @@ const ResourceCard = ({ title, links }: { title: string; links: { text: string; 
       <ul>
         {links.map((link, index) => (
           <li key={index} className="mb-2">
-            <a href={link.url} className="text-blue-700 hover:underline">{link.text}</a>
+            <a href={link.url} className="text-orange-700 hover:underline">{link.text}</a>
           </li>
         ))}
       </ul>

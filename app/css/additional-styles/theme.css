@@ -32,7 +32,6 @@ html {
   margin-bottom: 10px;
 }
 
-
 .hamburger svg > *:nth-child(1) {
   transition: y 0.1s 0.25s ease-in,
     transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19), opacity 0.1s ease-in;
@@ -132,11 +131,11 @@ html {
   transform: translateZ(0);
 }
 
-.button-yellow {
+.button-red {
   btn-arrow: var(--btn--text);
   arrow-margin: 0.75rem;
-  background: #ffdd00;
-  color: #04487f;
+  background: #c84f04;
+  color: #fff;
   border: solid 0.0625rem transparent;
   border-radius: 0.5rem;
   display: inline-block;
