@@ -59,7 +59,7 @@ export default function CancerFacts() {
         <button className="container flex justify-center items-center button-red mb-8">Skin Cancer Facts</button>
         <div className="w-full lg:w-11/12 xl:w-100 px-4">
           <div className={`border border-black rounded-lg mb-8 p-4 ${isAnimated.section1 ? 'animate-rightLeft' : ''} section1`}>
-                   <h2 className="text-2xl text-green-900 font-bold">Skin cancer is the most common cancer diagnosed in the United States</h2>
+                   <h2 className="text-2xl text-green-700 font-bold">Skin cancer is the most common cancer diagnosed in the United States</h2>
             <p className="text-black mb-4">Basal cell carcinomas (BCC) and squamous cell carcinomas (SCC), the most prevalent skin cancers, are generally curable.</p>
             <ul className="list-disc list-inside text-black mb-4">
               <li>BCCs and SCCs account for approximately 80% and 20% of diagnosed skin cancers, respectively.</li>
@@ -68,7 +68,7 @@ export default function CancerFacts() {
             </ul>
           </div>
           <div className={`border border-black rounded-lg mb-8 p-4 ${isAnimated.section2 ? 'animate-slideLeft' : ''} section2`}>
-          <h2 className="text-2xl text-green-900 font-bold">Melanoma, the third most common skin cancer in the United States</h2>
+          <h2 className="text-2xl text-green-700 font-bold">Melanoma, the third most common skin cancer in the United States</h2>
             <p className="text-black mb-4">Melanoma arises from the melanocytes, or pigment-producing cells, and has the potential to metastasize to other organs, making early detection and intervention crucial for prognosis.</p>
             <ul className="list-disc list-inside text-black mb-4">
               <li>Treatment for melanoma typically involves surgical excision, with additional therapies such as immunotherapy, targeted therapy, and chemotherapy considered for advanced cases.</li>
@@ -77,7 +77,7 @@ export default function CancerFacts() {
             </ul>
             </div>
             <div className={`border border-black rounded-lg mb-8 p-4 ${isAnimated.section5 ? 'animate-rightLeft' : ''} section5`}>
-          <h2 className="text-2xl text-green-900 font-bold">Skin cancer in skin of color patients</h2>
+          <h2 className="text-2xl text-green-700 font-bold">Skin cancer in skin of color patients</h2>
             <ul className="list-disc list-inside text-black mb-4">
               <li>Skin cancer can affect individuals of all skin tones, including those with darker skin who rarely sunburn.</li>
               <li>Melanoma in people of color tends to manifest in unique locations on the body, such as the palms of the hands, soles of the feet, under the nails, and in other nail areas.</li>
@@ -95,7 +95,7 @@ export default function CancerFacts() {
             </ul>
           </div> 
           <div className={`border border-black rounded-lg mb-8 p-4 ${isAnimated.section3 ? 'animate-slideLeft' : ''} section3`}>
-          <h2 className="text-2xl text-green-900 font-bold">Exposure to ultraviolet (UV) radiation</h2>
+          <h2 className="text-2xl text-green-700 font-bold">Exposure to ultraviolet (UV) radiation</h2>
             <ul className="list-disc list-inside text-black mb-4">
             <li>UV radiation from sunlight is the primary environmental risk factor for skin cancer, contributing to DNA damage and cellular mutations.</li>
 
@@ -105,7 +105,7 @@ export default function CancerFacts() {
           </div>
          
           <div className={`border border-black rounded-lg mb-8 p-4 ${isAnimated.section4 ? 'animate-rightLeft' : ''} section4`}>
-          <h2 className="text-2xl text-green-900 font-bold">General risk factors</h2>
+          <h2 className="text-2xl text-green-700 font-bold">General risk factors</h2>
             <ul className="list-disc list-inside text-black mb-4">
               <li>Skin that is lightly complected, burns, freckles, or becomes red upon sun exposure easily is often associated with a higher risk of skin cancer.</li>
               <li>Presence of many moles.</li>
