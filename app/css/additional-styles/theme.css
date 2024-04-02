@@ -10,6 +10,25 @@ html {
 .form-radio:focus {
   @apply ring-0;
 }
+.thick-border-red {
+  border: 8px solid red;
+}
+
+.thick-border-blue {
+  border: 8px solid blue;
+}
+
+.thick-border-green {
+  border: 8px solid green;
+}
+
+.thick-border-orange {
+  border: 8px solid orange;
+}
+
+.thick-border-purple {
+  border: 8px solid purple;
+}
 
 /* Hamburger button */
 .hamburger svg > *:nth-child(1),
