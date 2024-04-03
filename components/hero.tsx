@@ -17,7 +17,7 @@ export default function Hero() {
 
   <button className="container flex justify-center items-center button-red mb-8">About Skin Smart Campus Initiative</button>
     <p className="animate-slideLeft text-lg mb-6">
-      The The University of Miami aims to earn recognition as a Skin Smart Campus by The National Council on Skin Cancer Prevention through our commitment to fostering a safe and healthy learning and living environment both on- and off-campus. As part of this initiative, we have taken a pledge to prohibit indoor tanning devices in all university-affiliated buildings, while actively promoting skin cancer prevention policies and educational efforts.
+      The University of Miami aims to earn recognition as a Skin Smart Campus by The National Council on Skin Cancer Prevention through our commitment to fostering a safe and healthy learning and living environment both on- and off-campus. As part of this initiative, we have taken a pledge to prohibit indoor tanning devices in all university-affiliated buildings, while actively promoting skin cancer prevention policies and educational efforts.
     </p>
 
     <p className="animate-slideLeft text-lg mb-6">
